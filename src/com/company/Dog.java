@@ -13,7 +13,19 @@ class Dog {
         this.name = name;
     }
 
-    public String castVote() {
+    public String giveAVote() {
         return name + ' ' + "Гав";
+    }
+
+    public String giveAPaw() {
+        return name + " " + "подал лапу)";
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

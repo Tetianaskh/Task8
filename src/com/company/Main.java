@@ -15,7 +15,10 @@ public class Main {
                 new Dog("Noi")};
 
         for (Dog dog : dogs) {
-            System.out.println(dog.castVote());
+            System.out.println(dog.giveAVote());
+        }
+        for (Dog dog : dogs) {
+            System.out.println(dog.giveAPaw());
         }
     }
 
