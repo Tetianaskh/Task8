@@ -9,6 +9,10 @@ package com.company;
 class Dog {
     private String name;
 
+    public Dog(String name) {
+        this.name = name;
+    }
+
     public String castVote() {
         return name + ' ' + "Гав";
     }

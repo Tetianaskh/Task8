@@ -9,16 +9,10 @@ public class Main {
      * гетер и сеттер для имени
      */
     public static void exercise01() {
-        Dog tor = new Dog();
-        tor.name = "Tor";
-
-        Dog volt = new Dog();
-        volt.name = "Volt";
-
-        Dog noi = new Dog();
-        noi.name = "Noi";
-
-        Dog[] dogs = {tor, volt, noi};
+        Dog[] dogs = {
+                new Dog("Tor"),
+                new Dog("Volt"),
+                new Dog("Noi")};
 
         for (Dog dog : dogs) {
             System.out.println(dog.castVote());

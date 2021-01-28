@@ -10,5 +10,5 @@ package com.company;
  * метод для вывода точки в консоль
  * метод для нахождения расстояния до другой точки (double distanceTo(Point point2))
  */
- class Point {
+class Point {
 }
