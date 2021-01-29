@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.concurrent.Callable;
+
 public class Main {
 
     /**
@@ -40,7 +42,7 @@ public class Main {
      */
     public static void exercise02() {
         Point[] points = {
-                new Point(0,7),
+                new Point(5,10),
                 new Point(0,0),
                 new Point(2,4),
                 new Point(1,0),
@@ -55,6 +57,11 @@ public class Main {
         }
         System.out.println(points[0].distanceTo(points[1]));
 
+        Point center = new Point(1, 1);
+        Circle circle = new Circle(center, 7);
+        for (Point point : points) {
+            System.out.println(circle.containsPoint(point));
+        }
     }
 
     public static void main(String[] args) {

@@ -18,7 +18,7 @@ class Circle {
     }
 
     public boolean containsPoint (Point p) {
-        return p.distanceTo() <= radius;
+        return p.distanceTo(center) <= radius;
     }
 
     public Point getCenter() {
