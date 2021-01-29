@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.concurrent.Callable;
-
 public class Main {
 
     /**
