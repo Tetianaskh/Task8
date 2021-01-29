@@ -19,7 +19,7 @@ public class Main {
             System.out.println(dog.giveVoice());
         }
         for (Dog dog : dogs) {
-            System.out.println(dog.giveAPaw());
+            System.out.println(dog.givePaw());
         }
     }
 

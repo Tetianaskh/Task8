@@ -17,7 +17,7 @@ class Dog {
         return name + ' ' + "Гав";
     }
 
-    public String giveAPaw() {
+    public String givePaw() {
         return name + " " + "подал лапу)";
     }
 
