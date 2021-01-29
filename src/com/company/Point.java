@@ -27,6 +27,10 @@ class Point {
         return x == 0 && y == 0;
     }
 
+    public double distanceTo(Point point2) {
+        return Math.sqrt(Math.pow((x - x), 2) + Math.pow((y - y), 2));
+    }
+
     public double getX() {
         return x;
     }
