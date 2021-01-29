@@ -46,9 +46,12 @@ public class Main {
                 new Point(1,0),
                 new Point(14,4)
         };
+        for (Point point : points) {
+            System.out.println(point.print());
+        }
     }
 
     public static void main(String[] args) {
-       exercise01();
+        exercise02();
     }
 }

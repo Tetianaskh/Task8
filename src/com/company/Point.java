@@ -11,19 +11,31 @@ package com.company;
  * метод для нахождения расстояния до другой точки (double distanceTo(Point point2))
  */
 class Point {
-    private int x;
-    private int y;
+    private double x;
+    private double y;
 
-    public Point (int x, int y) {
+    public Point (double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    public int getX() {
+    public double print() {
+        return x + ' ' + ',' + ' ' + y;
+    }
+
+    public double getX() {
         return x;
     }
 
-    public void setX(int x) {
+    public void setX(double x) {
         this.x = x;
+    }
+
+    public double getY() {
+        return y;
+    }
+
+    public void setY(double y) {
+        this.y = y;
     }
 }
