@@ -46,12 +46,15 @@ public class Main {
                 new Point(1,0),
                 new Point(14,4)
         };
+
         for (Point point : points) {
             point.print();
         }
         for (Point point : points) {
             System.out.println(point.isOrigin());
         }
+        System.out.println(points[0].distanceTo(points[1]));
+
     }
 
     public static void main(String[] args) {

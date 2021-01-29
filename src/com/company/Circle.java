@@ -9,23 +9,23 @@ package com.company;
  * метод проверки лежит ли точка в этой окружности (boolean containsPoint(Point p))
  */
 class Circle {
-    private double center;
+    private Point center;
     private double radius;
 
-    public Circle (double center, double radius) {
+    public Circle (Point center, double radius) {
         this.center = center;
         this.radius = radius;
     }
 
     public boolean containsPoint (Point p) {
-
+        return p.distanceTo() <= radius;
     }
 
-    public double getCenter() {
+    public Point getCenter() {
         return center;
     }
 
-    public void setCenter(double center) {
+    public void setCenter(Point center) {
         this.center = center;
     }
 
