@@ -19,8 +19,12 @@ class Point {
         this.y = y;
     }
 
-    public String print() {
-        return "x = " + x + ' ' + ',' + ' ' + "y = " + y;
+    public void print() {
+        System.out.printf("x = %.1f, y = %.1f\n", x, y);
+    }
+
+    public boolean isOrigin() {
+        return x == 0 && y == 0;
     }
 
     public double getX() {

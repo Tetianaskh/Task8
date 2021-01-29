@@ -40,14 +40,17 @@ public class Main {
      */
     public static void exercise02() {
         Point[] points = {
-                new Point(5,7),
-                new Point(6,8),
+                new Point(0,7),
+                new Point(0,0),
                 new Point(2,4),
                 new Point(1,0),
                 new Point(14,4)
         };
         for (Point point : points) {
-            System.out.println(point.print());
+            point.print();
+        }
+        for (Point point : points) {
+            System.out.println(point.isOrigin());
         }
     }
 
