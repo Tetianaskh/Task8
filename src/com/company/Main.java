@@ -16,7 +16,7 @@ public class Main {
         };
 
         for (Dog dog : dogs) {
-            System.out.println(dog.giveAVote());
+            System.out.println(dog.giveVoice());
         }
         for (Dog dog : dogs) {
             System.out.println(dog.giveAPaw());

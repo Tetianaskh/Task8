@@ -13,7 +13,7 @@ class Dog {
         this.name = name;
     }
 
-    public String giveAVote() {
+    public String giveVoice() {
         return name + ' ' + "Гав";
     }
 
