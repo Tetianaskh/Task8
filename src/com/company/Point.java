@@ -19,8 +19,8 @@ class Point {
         this.y = y;
     }
 
-    public double print() {
-        return x + ' ' + ',' + ' ' + y;
+    public String print() {
+        return "x = " + x + ' ' + ',' + ' ' + "y = " + y;
     }
 
     public double getX() {
